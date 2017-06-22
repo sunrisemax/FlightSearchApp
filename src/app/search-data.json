@@ -1,0 +1,338 @@
+[
+   {
+      "from":"Pune",
+      "to":"Mumbai",
+      "price":4500,
+      "duration":1.20,
+      "airlines":"Air India"
+   },
+   {
+      "from":"Pune",
+      "to":"Delhi",
+      "price":5350,
+      "duration":3.20,
+      "airlines":"Air India"
+   },
+   {
+      "from":"Pune",
+      "to":"Bangalore",
+      "price":9800,
+      "duration":2.50,
+      "airlines":"Air India"
+   },
+   {
+      "from":"Delhi",
+      "to":"Mumbai",
+      "price":4930,
+      "duration":4.20,
+      "airlines":"Air India"
+   },
+   {
+      "from":"Delhi",
+      "to":"Pune",
+      "price":6300,
+      "duration":2.35,
+      "airlines":"Air India"
+   },
+   {
+      "from":"Delhi",
+      "to":"Bangalore",
+      "price":7380,
+      "duration":5.20,
+      "airlines":"Air India"
+   },
+   {
+      "from":"Mumbai",
+      "to":"Delhi",
+      "price":7340,
+      "duration":1.20,
+      "airlines":"Air India"
+   },
+   {
+      "from":"Mumbai",
+      "to":"Pune",
+      "price":4780,
+      "duration":2.20,
+      "airlines":"Air India"
+   },
+   {
+      "from":"Mumbai",
+      "to":"Bangalore",
+      "price":2650,
+      "duration":3.52,
+      "airlines":"Air India"
+   },
+   {
+      "from":"Bangalore",
+      "to":"Delhi",
+      "price":5240,
+      "duration":3.20,
+      "airlines":"Air India"
+   },
+   {
+      "from":"Bangalore",
+      "to":"Pune",
+      "price":8380,
+      "duration":2.40,
+      "airlines":"Air India"
+   },
+   {
+      "from":"Bangalore",
+      "to":"Mumbai",
+      "price":3600,
+      "duration":2.20,
+      "airlines":"Air India"
+   },
+   {
+      "from":"Pune",
+      "to":"Mumbai",
+      "price":4870,
+      "duration":1.45,
+      "airlines":"Jet Airways"
+   },
+   {
+      "from":"Pune",
+      "to":"Delhi",
+      "price":5350,
+      "duration":3.20,
+      "airlines":"Jet Airways"
+   },
+   {
+      "from":"Pune",
+      "to":"Bangalore",
+      "price":3450,
+      "duration":3.59,
+      "airlines":"Jet Airways"
+   },
+   {
+      "from":"Delhi",
+      "to":"Mumbai",
+      "price":4765,
+      "duration":4.27,
+      "airlines":"Jet Airways"
+   },
+   {
+      "from":"Delhi",
+      "to":"Pune",
+      "price":7426,
+      "duration":3.30,
+      "airlines":"Jet Airways"
+   },
+   {
+      "from":"Delhi",
+      "to":"Bangalore",
+      "price":5670,
+      "duration":4.45,
+      "airlines":"Jet Airways"
+   },
+   {
+      "from":"Mumbai",
+      "to":"Delhi",
+      "price":8760,
+      "duration":3.18,
+      "airlines":"Jet Airways"
+   },
+   {
+      "from":"Mumbai",
+      "to":"Pune",
+      "price":2600,
+      "duration":1.30,
+      "airlines":"Jet Airways"
+   },
+   {
+      "from":"Mumbai",
+      "to":"Bangalore",
+      "price":2700,
+      "duration":2.50,
+      "airlines":"Jet Airways"
+   },
+   {
+      "from":"Bangalore",
+      "to":"Delhi",
+      "price":6230,
+      "duration":3.28,
+      "airlines":"Jet Airways"
+   },
+   {
+      "from":"Bangalore",
+      "to":"Pune",
+      "price":5360,
+      "duration":2.36,
+      "airlines":"Jet Airways"
+   },
+   {
+      "from":"Bangalore",
+      "to":"Mumbai",
+      "price":3750,
+      "duration":2.47,
+      "airlines":"Jet Airways"
+   },
+   {
+      "from":"Pune",
+      "to":"Mumbai",
+      "price":4750,
+      "duration":2.46,
+      "airlines":"Go Indigo"
+   },
+   {
+      "from":"Pune",
+      "to":"Delhi",
+      "price":5843,
+      "duration":4.24,
+      "airlines":"Go Indigo"
+   },
+   {
+      "from":"Pune",
+      "to":"Bangalore",
+      "price":3700,
+      "duration":4.54,
+      "airlines":"Go Indigo"
+   },
+   {
+      "from":"Delhi",
+      "to":"Mumbai",
+      "price":4130,
+      "duration":4.20,
+      "airlines":"Go Indigo"
+   },
+   {
+      "from":"Delhi",
+      "to":"Pune",
+      "price":6280,
+      "duration":4.35,
+      "airlines":"Go Indigo"
+   },
+   {
+      "from":"Delhi",
+      "to":"Bangalore",
+      "price":7640,
+      "duration":4.27,
+      "airlines":"Go Indigo"
+   },
+   {
+      "from":"Mumbai",
+      "to":"Delhi",
+      "price":8800,
+      "duration":4.18,
+      "airlines":"Go Indigo"
+   },
+   {
+      "from":"Mumbai",
+      "to":"Pune",
+      "price":5400,
+      "duration":3.16,
+      "airlines":"Go Indigo"
+   },
+   {
+      "from":"Mumbai",
+      "to":"Bangalore",
+      "price":7300,
+      "duration":4.18,
+      "airlines":"Go Indigo"
+   },
+   {
+      "from":"Bangalore",
+      "to":"Delhi",
+      "price":5740,
+      "duration":4.17,
+      "airlines":"Go Indigo"
+   },
+   {
+      "from":"Bangalore",
+      "to":"Pune",
+      "price":8230,
+      "duration":3.45,
+      "airlines":"Go Indigo"
+   },
+   {
+      "from":"Bangalore",
+      "to":"Mumbai",
+      "price":3500,
+      "duration":2.20,
+      "airlines":"Vistara"
+   },
+   {
+      "from":"Pune",
+      "to":"Mumbai",
+      "price":3800,
+      "duration":1.45,
+      "airlines":"Vistara"
+   },
+   {
+      "from":"Pune",
+      "to":"Delhi",
+      "price":5430,
+      "duration":4.45,
+      "airlines":"Vistara"
+   },
+   {
+      "from":"Pune",
+      "to":"Bangalore",
+      "price":3120,
+      "duration":2.38,
+      "airlines":"Vistara"
+   },
+   {
+      "from":"Delhi",
+      "to":"Mumbai",
+      "price":4430,
+      "duration":3.33,
+      "airlines":"Vistara"
+   },
+   {
+      "from":"Delhi",
+      "to":"Pune",
+      "price":3700,
+      "duration":3.35,
+      "airlines":"Vistara"
+   },
+   {
+      "from":"Delhi",
+      "to":"Bangalore",
+      "price":7600,
+      "duration":4.50,
+      "airlines":"Vistara"
+   },
+   {
+      "from":"Mumbai",
+      "to":"Delhi",
+      "price":6800,
+      "duration":1.36,
+      "airlines":"Vistara"
+   },
+   {
+      "from":"Mumbai",
+      "to":"Pune",
+      "price":4800,
+      "duration":2.25,
+      "airlines":"Vistara"
+   },
+   {
+      "from":"Mumbai",
+      "to":"Bangalore",
+      "price":3700,
+      "duration":3.22,
+      "airlines":"Vistara"
+   },
+   {
+      "from":"Bangalore",
+      "to":"Delhi",
+      "price":6470,
+      "duration":3.50,
+      "airlines":"Vistara"
+   },
+   {
+      "from":"Bangalore",
+      "to":"Pune",
+      "price":8900,
+      "duration":2.40,
+      "airlines":"Vistara"
+   },
+   {
+      "from":"Bangalore",
+      "to":"Mumbai",
+      "price":3800,
+      "duration":2.15,
+      "airlines":"Vistara"
+   }
+]

@@ -1,0 +1,29 @@
+<ion-menu side="right" [content]="content">
+ <ion-header>
+      <ion-toolbar color="danger">
+          <ion-title>
+              Sort by
+          </ion-title>
+      </ion-toolbar>
+  </ion-header>
+    <ion-content >
+
+        <form (submit)='loadSortVal()'>
+          <ion-list>
+              <ion-item>
+                <ion-select [(ngModel)]="sortVal" name="sortVal">
+                    <ion-option value="price">Price</ion-option>
+                    <ion-option value="duration">Duration</ion-option>
+
+                </ion-select>
+
+              </ion-item>
+          </ion-list>
+
+
+          <button ion-button type="submit" block color="danger" menuToggle="right">Search Flights</button>
+        </form>
+
+    </ion-content>
+</ion-menu>
+<ion-nav [root]="rootPage" #content></ion-nav>

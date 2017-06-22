@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-navbar color="danger">
+    <ion-title>Flight Search App</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <form (submit)='loadResult()'>
+    <ion-list>
+        <ion-item>
+            <ion-label fixed>From</ion-label>
+              <ion-select [(ngModel)]="FromCity" name="FromCity">
+                  <ion-option value="pune">Pune</ion-option>
+                  <ion-option value="mumbai">Mumbai</ion-option>
+                  <ion-option value="delhi">Delhi</ion-option>
+                  <ion-option value="bangalore">Bangalore</ion-option>
+              </ion-select>
+        </ion-item>
+    </ion-list>
+    <ion-list>
+        <ion-item>
+            <ion-label fixed>To</ion-label>
+              <ion-select [(ngModel)]="ToCity" name="toCity">
+                  <ion-option value="pune">Pune</ion-option>
+                  <ion-option value="mumbai">Mumbai</ion-option>
+                  <ion-option value="delhi">Delhi</ion-option>
+                  <ion-option value="bangalore">Bangalore</ion-option>
+              </ion-select>
+        </ion-item>
+    </ion-list>
+
+    <button ion-button type="submit" block color="danger">Search Flights</button>
+  </form>
+
+
+</ion-content>

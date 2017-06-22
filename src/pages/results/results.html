@@ -1,0 +1,38 @@
+
+<ion-header>
+
+  <ion-navbar color="danger">
+    <ion-title>Search Results</ion-title>
+  <!--  <ion-buttons end>
+        <button ion-button icon-only><ion-icon name="funnel"></ion-icon></button>
+    </ion-buttons> -->
+
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card>
+    <ion-card-header>
+      Search Results
+    </ion-card-header>
+    <ion-card-content>
+    <p>Results for your flight search from: <strong>{{FromCity}}</strong> to: <strong>{{ToCity}}</strong> </p>
+
+    <ion-list>
+        <ion-item *ngFor="let item of items | origin : FromCity | destination : ToCity | price : sortVal">
+       <p >
+      From : {{item.from}}   To:     {{item.to}} :  Airlines: {{item.airlines}}</p>
+      <p> Price : {{item.price}}  Duration : {{item.duration}}</p>
+        </ion-item>
+
+
+  </ion-list>
+
+
+    </ion-card-content>
+  </ion-card>
+
+
+</ion-content>
