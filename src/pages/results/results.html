@@ -14,17 +14,22 @@
 
 <ion-content padding>
   <ion-card>
-    <ion-card-header>
+    <ion-card-header color='grey'>
       Search Results
     </ion-card-header>
     <ion-card-content>
     <p>Results for your flight search from: <strong>{{FromCity}}</strong> to: <strong>{{ToCity}}</strong> </p>
 
-    <ion-list>
+    <ion-list class="searhItems">
         <ion-item *ngFor="let item of items | origin : FromCity | destination : ToCity | price : sortVal">
+          <img *ngIf="item.airlines=='Air India'" src="../../assets/logos/air-india-logo.png"/>
+          <img *ngIf="item.airlines== 'Jet Airways'"  src="../../assets/logos/jet-airways-logo.png"/>
+          <img *ngIf="item.airlines=='Go Indigo'"  src="../../assets/logos/indigo-logo.png"/>
+          <img *ngIf="item.airlines=='Vistara'"  src="../../assets/logos/vistara-logo.png"/>
        <p >
-      From : {{item.from}}   To:     {{item.to}} :  Airlines: {{item.airlines}}</p>
-      <p> Price : {{item.price}}  Duration : {{item.duration}}</p>
+      From : {{item.from}}   To:     {{item.to}} :  Airlines: {{item.airlines}}
+       Price : {{item.price}}  Duration : {{item.duration}} Hrs. </p>
+       <button ion-button block color="danger" >Book</button>
         </ion-item>
 
 

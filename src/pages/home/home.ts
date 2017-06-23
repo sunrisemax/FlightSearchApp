@@ -23,9 +23,11 @@ loadResult(){
     }
     else if(this.ToCity == undefined){
       alert("Please Select destinaton City");
-    }
+    } else if(this.FromCity == this.ToCity){
+      alert("Origin and Destination cannot be same")
+    } else{
 
-    this.navCtrl.push(Results);
+    this.navCtrl.push(Results);}
 
 
   }

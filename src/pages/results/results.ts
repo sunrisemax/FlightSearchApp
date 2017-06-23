@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,ChangeDetectionStrategy } from '@angular/core';
 import { IonicPage, NavController, NavParams, MenuController } from 'ionic-angular';
 import {FlightSearch} from '../../providers/flight-search';
 import {HomePage} from '../home/home';
@@ -10,7 +10,8 @@ import {Destination} from '../../pipes/destination';
 @IonicPage()
 @Component({
   selector: 'page-results',
-  templateUrl: 'results.html'
+  templateUrl: 'results.html',
+  changeDetection: ChangeDetectionStrategy.Default
 })
 export class Results {
   items:any;
